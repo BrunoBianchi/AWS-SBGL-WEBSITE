@@ -1,4 +1,5 @@
 {
+  "name": "AWS-SBGL-WEBSITE",
   "devDependencies": {
     "@commitlint/cli": "^21.2.3",
     "@commitlint/config-conventional": "^21.2.3",
