@@ -10,7 +10,7 @@
     "prepare": "husky"
   },
   "version": "0.0.0-PLACEHOLDER",
-  "releases": {
+  "release": {
     "branches": [
       "main"
     ],
