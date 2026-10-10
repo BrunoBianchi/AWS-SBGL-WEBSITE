@@ -1,0 +1,22 @@
+{
+  "devDependencies": {
+    "@commitlint/cli": "^21.2.3",
+    "@commitlint/config-conventional": "^21.2.3",
+    "husky": "^9.1.7",
+    "semantic-release": "^25.0.9"
+  },
+  "scripts": {
+    "prepare": "husky"
+  },
+  "version": "0.0.0-PLACEHOLDER",
+  "releases": {
+    "branches": [
+      "main"
+    ],
+    "plugins": [
+      "@semantic-release/commit-analyzer",
+      "@semantic-release/release-notes-generator",
+      "@semantic-release/github"
+    ]
+  }
+}
